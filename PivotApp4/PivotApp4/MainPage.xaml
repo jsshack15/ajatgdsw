@@ -1,0 +1,230 @@
+﻿<phone:PhoneApplicationPage
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:phone="clr-namespace:Microsoft.Phone.Controls;assembly=Microsoft.Phone"
+    xmlns:shell="clr-namespace:Microsoft.Phone.Shell;assembly=Microsoft.Phone"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:maps="clr-namespace:Microsoft.Phone.Maps.Controls;assembly=Microsoft.Phone.Maps"
+    x:Class="PivotApp4.MainPage"
+    mc:Ignorable="d"
+    d:DataContext="{d:DesignData SampleData/MainViewModelSampleData.xaml}"
+    FontFamily="{StaticResource PhoneFontFamilyNormal}"
+    FontSize="{StaticResource PhoneFontSizeNormal}"
+    Foreground="{StaticResource PhoneForegroundBrush}"
+    SupportedOrientations="Portrait"  Orientation="Portrait"
+    shell:SystemTray.IsVisible="True">
+
+    <!--LayoutRoot is the root grid where all page content is placed-->
+    <Grid x:Name="LayoutRoot" Background="{StaticResource gasBrush}">
+        
+
+        <!-- LOCALIZATION NOTE:
+            To localize the displayed strings copy their values to appropriately named
+            keys in the app's neutral language resource file (AppResources.resx) then
+            replace the hard-coded text value between the attributes' quotation marks
+            with the binding clause whose path points to that string name.
+
+            For example:
+
+                Text="{Binding Path=LocalizedResources.ApplicationTitle, Source={StaticResource LocalizedStrings}}"
+
+            This binding points to the template's string resource named "ApplicationTitle".
+
+            Adding supported languages in the Project Properties tab will create a
+            new resx file per language that can carry the translated values of your
+            UI strings. The binding in these examples will cause the value of the
+            attributes to be drawn from the .resx file that matches the
+            CurrentUICulture of the app at run time.
+         -->
+
+        <!--Pivot Control-->
+        <phone:Pivot Title="secWom">
+            <!--Pivot item one-->
+            <phone:PivotItem Header="Emergency">
+                <StackPanel>
+                    <Button x:Name="msg"
+						Content="Click to send message" HorizontalAlignment="Left" 
+						Margin="0,0,0,0" VerticalAlignment="Top" Width="446" 
+						Click="msg_Click" Height="73"  />
+
+                    <Button x:Name="emailPol"
+						Content="Click to send email to police e-cell" HorizontalAlignment="Left" 
+						Margin="0,30,0,0" VerticalAlignment="Top" Width="446" Click="emailPol_Click" 
+                            />
+
+                    <Button x:Name="emailWom"
+						Content="Click to send email to women helpline" HorizontalAlignment="Left" 
+						Margin="0,30,0,0" VerticalAlignment="Top" Width="446" Click="emailWom_Click"
+                            />
+                    <Button x:Name="callWom"
+						Content="Click to call women helpline" HorizontalAlignment="Left" 
+						Margin="0,30,0,0" VerticalAlignment="Top" Width="446" Click="callWom_Click"
+                            />
+                    <Button x:Name="callPol"
+						Content="Click to call police" HorizontalAlignment="Left" 
+						Margin="0,30,0,0" VerticalAlignment="Top" Width="446" Click="callPol_Click"
+                            />
+                    <!--<Button x:Name="location"
+						Content="Your current location" HorizontalAlignment="Left" 
+						Margin="0,30,0,0" VerticalAlignment="Top" Width="446" Click="location_Click" 
+                            />-->
+                </StackPanel>
+
+
+            </phone:PivotItem>
+
+            <!--Pivot item two-->
+            <phone:PivotItem Header="Tips &amp; Tricks" Margin="12,94,12,0" >
+                <!--Double line list no text wrapping-->
+
+                <!--<TextBlock HorizontalAlignment="Left" 
+                               Margin="0,0,0,0" TextWrapping="Wrap" 
+                               Text="How to get out of situation" VerticalAlignment="Top"
+                               FontSize="25"
+                               />-->
+
+                <Grid Margin="0,-65,0,0">
+                    <Grid.RowDefinitions>
+                        <!--<RowDefinition Height="30"-->
+                        <RowDefinition Height="30"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+                        <RowDefinition Height="*"/>
+
+
+                    </Grid.RowDefinitions>
+                    <Grid.ColumnDefinitions>
+                        <!--<ColumnDefinition Width="*"/>-->
+                        <ColumnDefinition Width="*"/>
+                        <ColumnDefinition Width="*"/>
+
+
+                    </Grid.ColumnDefinitions>
+
+                    <!--<TextBlock>1</TextBlock>-->
+                    <TextBlock HorizontalAlignment="Left" Margin="40,0,0,0" 
+						Grid.Row="0"     Grid.ColumnSpan="2"    TextWrapping="Wrap" FontSize="20" 
+						Text="How to get out of the situation" VerticalAlignment="Top" 
+                               />
+
+                    <Image x:Name="move1"
+						Margin="0,10,0,0" Grid.Row="1" Grid.Column="0" 
+						Source="/Assets/vlc1.png" DoubleTap="move1_DoubleTap"/>
+
+                    <Image x:Name="move2"
+						Margin="0,10,0,0" Grid.Column="1" Grid.Row="1"
+						Source="/Assets/vlc2.png" DoubleTap="move2_DoubleTap"/>
+                    <Image x:Name="move3"
+						Grid.Row="2" Grid.Column="1" 
+						Margin="0,10,0,0"   Source="/Assets/vlc4.png" DoubleTap="move3_DoubleTap"/>
+
+                    <Image x:Name="move4"
+						Grid.Row="2" Grid.Column="0" 
+						Margin="0,10,0,0"   Source="/Assets/vlc3.png" DoubleTap="move4_DoubleTap"/>
+
+                    <Image x:Name="move5"
+						Grid.Row="3" Grid.Column="1" 
+						Margin="0,10,0,0"   Source="/Assets/.png" DoubleTap="move5_DoubleTap"/>
+
+                    <Image x:Name="move6"
+						Grid.Row="3" Grid.Column="0" 
+						Margin="0,10,0,0"   Source="/Assets/SquareTile71x71.png" DoubleTap="move6_DoubleTap"/>
+
+                    <!--<Image Grid.Row="2" Grid.Column="0" 
+                           Source="/Assets/SquareTile71x71.png"></Image>
+
+                    <Image Grid.Row="2" Grid.Column="1" 
+                           Source="/Assets/SquareTile71x71.png"></Image>-->
+
+                </Grid>
+
+                <!--<Image Height="181" Width="181" Margin="10,20,275,0"
+                           Source="/Assets/AlignmentGrid.png"
+                          Grid.Column ="0" />
+                    <Image Height="181" Width="181" Margin="190,0,275,0"
+                           Source="/Assets/AlignmentGrid.png" Grid.Column=""
+                           />-->
+
+
+
+
+            </phone:PivotItem>
+            <phone:PivotItem Header="current location" Margin="12,0,12,0">
+
+
+                <maps:Map x:Name="mapWithMyLocation"
+                    />
+
+
+            </phone:PivotItem>
+
+            <phone:PivotItem Header="Complaint Form" Margin="12,0,12,0">
+                <StackPanel>
+                    <TextBlock TextWrapping="Wrap" Text="Name" FontSize="28"
+                               Margin="10,0,0,0"
+                               />
+                    <TextBox Height="72" TextWrapping="Wrap" Text=""/>
+                    <TextBlock TextWrapping="Wrap" Text="Contact No" FontSize="28"
+                               Margin="10,0,0,0"
+                               />
+                    <TextBox Height="72" TextWrapping="Wrap"  Text="" InputScope="Number"/>
+                    <TextBlock TextWrapping="Wrap" Text="You are:" FontSize="28"
+                    	Margin="10,0,0,0"
+                               />
+                    <RadioButton Content="Suspect" Margin="0,0,267,0" Height="77"/>
+                    <RadioButton Content="Witness" Margin="0,0,267,0" Height="73"/>
+
+                    <TextBlock TextWrapping="Wrap" Text="Description:" FontSize="28"
+                    	Margin="10,0,0,0"
+                               />
+                    <TextBox ScrollViewer.VerticalScrollBarVisibility="Visible"  Height="145" TextWrapping="Wrap" Text=""/>
+
+                    <!--<ScrollViewer x:Name="description"
+                        Height="180"/>-->
+                    <Button Content="Submit">
+                        
+                    </Button>
+                    
+
+
+
+
+
+
+                </StackPanel>
+
+
+
+
+
+
+                <!--<TextBlock Text="Name" Margin="0,60,0,0" FontSize="32"/>-->
+
+
+
+
+
+
+
+
+
+            </phone:PivotItem>
+
+
+        </phone:Pivot>
+
+
+
+
+
+        <!--Uncomment to see an alignment grid to help ensure your controls are
+            aligned on common boundaries.  The image has a top margin of -32px to
+            account for the System Tray. Set this to 0 (or remove the margin altogether)
+            if the System Tray is hidden.
+
+            Before shipping remove this XAML and the image itself.-->
+        <!--<Image Source="/Assets/AlignmentGrid.png" VerticalAlignment="Top" Height="800" Width="480" Margin="0,-32,0,0" Grid.Row="0" IsHitTestVisible="False" />-->
+    </Grid>
+
+</phone:PhoneApplicationPage>
