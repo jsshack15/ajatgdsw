@@ -17,7 +17,7 @@
 
     <!--LayoutRoot is the root grid where all page content is placed-->
     <Grid x:Name="LayoutRoot" Background="{StaticResource gasBrush}">
-        
+
 
         <!-- LOCALIZATION NOTE:
             To localize the displayed strings copy their values to appropriately named
@@ -115,13 +115,13 @@
                     <Image x:Name="move2"
 						Margin="0,10,0,0" Grid.Column="1" Grid.Row="1"
 						Source="/Assets/vlc2.png" DoubleTap="move2_DoubleTap"/>
-                    <Image x:Name="move3"
-						Grid.Row="2" Grid.Column="1" 
-						Margin="0,10,0,0"   Source="/Assets/vlc4.png" DoubleTap="move3_DoubleTap"/>
-
                     <Image x:Name="move4"
+						Grid.Row="2" Grid.Column="1" 
+						Margin="0,20,0,0"   Source="/Assets/vlc4.png" DoubleTap="move4_DoubleTap"/>
+
+                    <Image x:Name="move3"
 						Grid.Row="2" Grid.Column="0" 
-						Margin="0,10,0,0"   Source="/Assets/vlc3.png" DoubleTap="move4_DoubleTap"/>
+						Margin="0,20,0,0"   Source="/Assets/vlc3.png" DoubleTap="move3_DoubleTap"/>
 
                     <Image x:Name="move5"
 						Grid.Row="3" Grid.Column="1" 
@@ -187,9 +187,9 @@
                     <!--<ScrollViewer x:Name="description"
                         Height="180"/>-->
                     <Button Content="Submit" Click="Button_Click">
-                        
+
                     </Button>
-                    
+
 
 
 
@@ -208,11 +208,20 @@
 
 
 
-
-
-
-
-
+            </phone:PivotItem>
+            <phone:PivotItem Header="About" Margin="12,0,12,0">
+                <TextBlock HorizontalAlignment="Left" Margin="10,0,0,0" TextWrapping="Wrap" 
+                           Text="" VerticalAlignment="Top" FontSize="25" Height="419" Width="436"
+                           >
+                    version 1.0.x<LineBreak></LineBreak> <LineBreak></LineBreak>
+                    Through secWom we have made best attemts towards the issue of  Women Security.<LineBreak></LineBreak><LineBreak></LineBreak>
+                    Further, your contribution is important to solve this issue.<LineBreak></LineBreak><LineBreak></LineBreak>
+                    Please comment your valuable reviews on the store so that we can make updates and solve this national issue.
+                    
+                   
+                    
+                </TextBlock>
+               
             </phone:PivotItem>
 
 

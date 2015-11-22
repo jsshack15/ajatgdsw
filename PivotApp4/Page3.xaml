@@ -31,7 +31,7 @@
             <MediaElement x:Name="media"
                 HorizontalAlignment="Left" Height="171" Margin="10,0,0,0" 
                           VerticalAlignment="Top" Width="436"
-          Source="short_clip_3.wmv"               AutoPlay="False" 
+          Source="short_clip_3ft.wmv"               AutoPlay="False" 
                           
                           />
             <Button
@@ -41,6 +41,19 @@
                 Content="Pause " HorizontalAlignment="Left"
                     Margin="332,172,0,0" 
                     VerticalAlignment="Top" Height="78" Width="114" Click="PauseMedia" />
+            <TextBlock HorizontalAlignment="Left" Margin="10,255,0,0"
+                       TextWrapping="Wrap" Text="" FontSize="25" VerticalAlignment="Top" 
+                       Height="342" Width="436">
+               Situation: If someone grabs you from back<LineBreak></LineBreak>
+                1. Have patience and stay foccused<LineBreak></LineBreak>
+                2.Try to hit hard on the attackers weak points<LineBreak></LineBreak>
+                3.Run Away
+          
+            
+            </TextBlock>
+
+
+
         </Grid>
     </Grid>
 

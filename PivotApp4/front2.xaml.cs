@@ -48,9 +48,9 @@ namespace PivotApp4
             using (StreamWriter writeFile = new StreamWriter(new IsolatedStorageFileStream("myFile.txt", FileMode.Create, FileAccess.Write, myIsolatedStorage)))
             {
                 //string someTextData = "This is some text data to be saved in a new text file in the IsolatedStorage!";
-                writeFile.WriteLine(b1.Text);
-                writeFile.WriteLine(b2.Text);
-                writeFile.WriteLine(b3.Text);
+                writeFile.WriteLine(a1.Text+b1.Text);
+                writeFile.WriteLine(a1.Text + b2.Text);
+                writeFile.WriteLine(a1.Text + b3.Text);
                 writeFile.Close();
             }
 

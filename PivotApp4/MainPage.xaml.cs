@@ -117,7 +117,7 @@ namespace PivotApp4
             }
 
 
-            MessageBox.Show(content);
+           
 
 
 
@@ -135,8 +135,8 @@ namespace PivotApp4
         {
             EmailComposeTask mailTask = new EmailComposeTask();
             mailTask.To = "akshayvashistha1995@gmail.com";
-            mailTask.Subject = "bachao bachao";
-            mailTask.Body = "this the app";
+            mailTask.Subject = "Save me!!!";
+            mailTask.Body = "Help Help Help!!!!!  I am in a great danger.Please help me out. my current location is latitude:" + latitudelongitude.Latitude + "  longitude:" + latitudelongitude.Longitude;
 
             mailTask.Show();
             
@@ -148,7 +148,7 @@ namespace PivotApp4
             EmailComposeTask mailTask = new EmailComposeTask();
             mailTask.To = "akshayvashisha1995@gmail.com";
             mailTask.Subject = "save me";
-            mailTask.Body = "";
+            mailTask.Body = "Help Help Help!!!!!  I am in a great danger.Please help me out. my current location is latitude:" + latitudelongitude.Latitude + "  longitude:" + latitudelongitude.Longitude;
             mailTask.Show();
 
         }
@@ -158,7 +158,7 @@ namespace PivotApp4
             PhoneCallTask phoneCallTask = new PhoneCallTask();
 
             phoneCallTask.PhoneNumber = "8860660862";
-            phoneCallTask.DisplayName = "akshay vashistha";
+            phoneCallTask.DisplayName = "Women Helpline";
 
 
             phoneCallTask.Show();
@@ -169,7 +169,7 @@ namespace PivotApp4
         {
             PhoneCallTask phoneCallTask = new PhoneCallTask();
             phoneCallTask.PhoneNumber = "9810329265";
-            phoneCallTask.DisplayName = "shubham";
+            phoneCallTask.DisplayName = "policeman";
             phoneCallTask.Show();
         }
 

@@ -186,7 +186,6 @@
   <ItemGroup>
     <Content Include="Assets\AlignmentGrid.png" />
     <Content Include="Assets\BadgeLogo.png" />
-    <Content Include="Assets\logo.png" />
     <Content Include="Assets\short_clip2_2.wmv" />
     <Content Include="Assets\short_clip_2.wmv" />
     <Content Include="Assets\short_clip_3_2.wmv" />
@@ -216,7 +215,13 @@
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
     </Content>
     <Content Include="Assets\widetile.png" />
+    <Content Include="banner_02.png" />
     <Content Include="bg.png" />
+    <Content Include="Assets\logo.png" />
+    <Content Include="short_clip2ft.wmv" />
+    <Content Include="short_clip_1ft.wmv" />
+    <Content Include="short_clip_3ft.wmv" />
+    <Content Include="short_clip_4ft.wmv" />
     <Content Include="start.png" />
     <Content Include="swicon.png" />
     <Content Include="widetile.png" />

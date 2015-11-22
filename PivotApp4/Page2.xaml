@@ -33,7 +33,7 @@
         </Grid>
         <MediaElement x:Name="media"
             HorizontalAlignment="Left" Height="171" Margin="12,9,0,0" 
-             Source="short_clip2.wmv"             VerticalAlignment="Top" Width="456" Grid.Row="1"
+             Source="short_clip2ft.wmv"             VerticalAlignment="Top" Width="456" Grid.Row="1"
                           
               AutoPlay="False"            
                           />
@@ -45,6 +45,20 @@
                 Content="Pause " HorizontalAlignment="Left"
                     Margin="332,172,0,0" 
                     VerticalAlignment="Top" Height="78" Width="114" Grid.Row="2" Click="PauseMedia" />
+        <TextBlock HorizontalAlignment="Left" Margin="12,255,0,0" FontSize="25"
+                   Grid.Row="1" TextWrapping="Wrap" Text="" VerticalAlignment="Top" Height="342" Width="458">
+         Situation: When someone grabs your throat<LineBreak></LineBreak>  
+            1.Don't Panic<LineBreak></LineBreak>
+            2.  Stay Focused<LineBreak></LineBreak>
+            3.Hit hard on attackers eye<LineBreak></LineBreak>
+            4. Run Away
+            
+            
+            
+            
+        </TextBlock>
+
+
 
 
     </Grid>

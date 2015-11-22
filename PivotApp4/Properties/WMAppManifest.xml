@@ -1,7 +1,7 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Deployment xmlns="http://schemas.microsoft.com/windowsphone/2014/deployment" AppPlatformVersion="8.1">
   <DefaultLanguage xmlns="" code="en-US" />
-  <App xmlns="" ProductID="{c49fbb57-0911-4eaa-870b-940becbff749}" Title="PivotApp4" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="PivotApp4 author" Description="Sample description" SDOptOut="false" BackUpOptOut="false" Publisher="PivotApp4" PublisherID="{08f17019-31af-4882-8c41-70a305ec85b7}">
+  <App xmlns="" ProductID="{c49fbb57-0911-4eaa-870b-940becbff749}" Title="secWom" RuntimeType="Silverlight" Version="1.0.0.0" Genre="apps.normal" Author="PivotApp4 author" Description="Sample description" SDOptOut="false" BackUpOptOut="false" Publisher="PivotApp4" PublisherID="{08f17019-31af-4882-8c41-70a305ec85b7}">
     <IconPath IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</IconPath>
     <Capabilities>
       <Capability Name="ID_CAP_NETWORKING" />
@@ -18,20 +18,23 @@
     <Tokens>
       <PrimaryToken TokenID="PivotApp4Token" TaskName="_default">
         <TemplateFlip>
-          <SmallImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileSmall.png</SmallImageURI>
+          <SmallImageURI IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</SmallImageURI>
           <Count>0</Count>
-          <BackgroundImageURI IsRelative="true" IsResource="false">Assets\Tiles\FlipCycleTileMedium.png</BackgroundImageURI>
-          <Title>PivotApp4</Title>
+          <BackgroundImageURI IsRelative="true" IsResource="false">Assets\ApplicationIcon.png</BackgroundImageURI>
+          <Title>secWom</Title>
           <BackContent>
           </BackContent>
           <BackBackgroundImageURI>
           </BackBackgroundImageURI>
           <BackTitle>
           </BackTitle>
+          <LargeBackgroundImageURI IsRelative="true" IsResource="false">Assets\widetile.png</LargeBackgroundImageURI>
+          <LargeBackContent />
+          <LargeBackBackgroundImageURI IsRelative="true" IsResource="false">
+          </LargeBackBackgroundImageURI>
           <DeviceLockImageURI>
           </DeviceLockImageURI>
-          <HasLarge>
-          </HasLarge>
+          <HasLarge>True</HasLarge>
         </TemplateFlip>
       </PrimaryToken>
     </Tokens>

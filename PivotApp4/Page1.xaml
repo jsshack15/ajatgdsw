@@ -29,8 +29,8 @@
         <!--ContentPanel - place additional content here-->
         <Grid x:Name="ContentPanel" Grid.Row="1" Margin="12,0,12,0">
             <MediaElement x:Name="media"
-                Source="short_clip_2.wmv" HorizontalAlignment="Left" Height="171" Margin="48,0,0,0" 
-                          VerticalAlignment="Top" Width="363" AutoPlay="True"
+                Source="short_clip_1ft.wmv" HorizontalAlignment="Left" Height="171" Margin="48,0,0,0" 
+                          VerticalAlignment="Top" Width="363" AutoPlay="False"
             />
             <Button
                 Content="Play" HorizontalAlignment="Left" Margin="0,172,0,0"
@@ -39,6 +39,16 @@
                 Content="Pause " HorizontalAlignment="Left"
                     Margin="332,172,0,0" 
                     VerticalAlignment="Top" Height="78" Width="114" Click="PauseMedia" />
+            <TextBlock HorizontalAlignment="Left" Margin="10,255,0,0" TextWrapping="Wrap"
+                       Text="" FontSize="25" VerticalAlignment="Top" Height="342" Width="436">
+                Situation: If someone tries to atack you from front<LineBreak></LineBreak>
+                1. Stay Calm<LineBreak></LineBreak>
+                2. Focus hard and hit tightly on his<LineBreak></LineBreak> neck<LineBreak></LineBreak>
+                3. Run Away
+                
+            
+                
+            </TextBlock>
 
         </Grid>
     </Grid>

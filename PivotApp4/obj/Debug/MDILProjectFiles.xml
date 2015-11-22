@@ -5,7 +5,6 @@
     <File>PivotApp4.dll</File>
     <File>Assets\AlignmentGrid.png</File>
     <File>Assets\BadgeLogo.png</File>
-    <File>Assets\logo.png</File>
     <File>Assets\short_clip2_2.wmv</File>
     <File>Assets\short_clip_2.wmv</File>
     <File>Assets\short_clip_3_2.wmv</File>
@@ -19,16 +18,22 @@
     <File>Assets\vlc4.png</File>
     <File>Assets\WideLogo.png</File>
     <File>Assets\Tiles\FlipCycleTileLarge.png</File>
+    <File>Assets\Tiles\FlipCycleTileMedium.png</File>
     <File>Assets\Tiles\FlipCycleTileSmall.png</File>
     <File>Assets\Tiles\IconicTileMediumLarge.png</File>
     <File>Assets\Tiles\IconicTileSmall.png</File>
     <File>Assets\widetile.png</File>
+    <File>banner_02.png</File>
     <File>bg.png</File>
+    <File>Assets\logo.png</File>
+    <File>short_clip2ft.wmv</File>
+    <File>short_clip_1ft.wmv</File>
+    <File>short_clip_3ft.wmv</File>
+    <File>short_clip_4ft.wmv</File>
     <File>start.png</File>
     <File>swicon.png</File>
     <File>widetile.png</File>
     <File>AppManifest.xaml</File>
-    <File>Assets\Tiles\FlipCycleTileMedium.png</File>
     <File>Assets\ApplicationIcon.png</File>
     <File>WMAppManifest.xml</File>
     <File>AppxManifest.xml</File>

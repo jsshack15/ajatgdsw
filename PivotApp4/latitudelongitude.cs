@@ -5,6 +5,10 @@ using System.Text;
 using System.Threading.Tasks;
 using Windows.Devices.Geolocation;
 using System.IO.IsolatedStorage;
+using Windows.Web.Http;
+using Microsoft.Phone.Maps;
+
+
 namespace PivotApp4
 {
     public static class latitudelongitude
@@ -37,6 +41,17 @@ namespace PivotApp4
                     );
                 Longitude = geoposition.Coordinate.Point.Position.Longitude.ToString("0.00");
                 Latitude = geoposition.Coordinate.Point.Position.Latitude.ToString("0.00");
+
+
+
+
+               
+
+
+
+
+
+
 
 
                 //Longitude =

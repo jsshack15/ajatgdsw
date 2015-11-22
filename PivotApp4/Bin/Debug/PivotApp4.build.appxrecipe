@@ -25,10 +25,6 @@
     <AppxPackagedFile Include="C:\Users\yash srivastav\documents\visual studio 2013\Projects\PivotApp4\PivotApp4\Assets\BadgeLogo.png">
       <PackagePath>Assets\BadgeLogo.png</PackagePath>
     </AppxPackagedFile>
-    <AppxPackagedFile Include="C:\Users\yash srivastav\documents\visual studio 2013\Projects\PivotApp4\PivotApp4\Assets\logo.png">
-      <PackagePath>Assets\logo.png</PackagePath>
-      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
-    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\yash srivastav\documents\visual studio 2013\Projects\PivotApp4\PivotApp4\Assets\SquareTile150x150.png">
       <PackagePath>Assets\SquareTile150x150.png</PackagePath>
       <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
@@ -77,8 +73,15 @@
     <AppxPackagedFile Include="C:\Users\yash srivastav\documents\visual studio 2013\Projects\PivotApp4\PivotApp4\Assets\widetile.png">
       <PackagePath>Assets\widetile.png</PackagePath>
     </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yash srivastav\documents\visual studio 2013\Projects\PivotApp4\PivotApp4\banner_02.png">
+      <PackagePath>banner_02.png</PackagePath>
+    </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\yash srivastav\documents\visual studio 2013\Projects\PivotApp4\PivotApp4\bg.png">
       <PackagePath>bg.png</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yash srivastav\documents\visual studio 2013\Projects\PivotApp4\PivotApp4\Assets\logo.png">
+      <PackagePath>Assets\logo.png</PackagePath>
+      <ReRegisterAppIfChanged>true</ReRegisterAppIfChanged>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\yash srivastav\documents\visual studio 2013\Projects\PivotApp4\PivotApp4\start.png">
       <PackagePath>start.png</PackagePath>
@@ -100,6 +103,18 @@
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\yash srivastav\documents\visual studio 2013\Projects\PivotApp4\PivotApp4\Assets\vid1.wmv">
       <PackagePath>Assets\vid1.wmv</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yash srivastav\documents\visual studio 2013\Projects\PivotApp4\PivotApp4\short_clip2ft.wmv">
+      <PackagePath>short_clip2ft.wmv</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yash srivastav\documents\visual studio 2013\Projects\PivotApp4\PivotApp4\short_clip_1ft.wmv">
+      <PackagePath>short_clip_1ft.wmv</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yash srivastav\documents\visual studio 2013\Projects\PivotApp4\PivotApp4\short_clip_3ft.wmv">
+      <PackagePath>short_clip_3ft.wmv</PackagePath>
+    </AppxPackagedFile>
+    <AppxPackagedFile Include="C:\Users\yash srivastav\documents\visual studio 2013\Projects\PivotApp4\PivotApp4\short_clip_4ft.wmv">
+      <PackagePath>short_clip_4ft.wmv</PackagePath>
     </AppxPackagedFile>
     <AppxPackagedFile Include="C:\Users\yash srivastav\documents\visual studio 2013\Projects\PivotApp4\PivotApp4\Bin\Debug\resources.pri">
       <PackagePath>resources.pri</PackagePath>
